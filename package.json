@@ -1,12 +1,12 @@
 {
-  "name": "sidekick",
+  "name": "aide",
   "version": "0.0.1",
   "module": "index.ts",
   "main": "index.ts",
   "type": "module",
   "private": true,
   "bin": {
-    "sidekick": "./index.ts"
+    "aide": "./index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest",
@@ -34,6 +34,6 @@
   "bun-create": {
     "preinstall": "echo 'Installing...'", 
     "postinstall": ["echo 'Done!'"], 
-    "start": "sidekick launch"
+    "start": "aide launch"
   }
 }

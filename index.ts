@@ -7,8 +7,8 @@ import { settings } from "./tui/settings"
 const program = new Command();
 
 program
-  .name("sidekick")
-  .description("Sidekick cli")
+  .name("aide")
+  .description("aide cli")
   .version("0.0.1");
 
 program

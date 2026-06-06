@@ -1,4 +1,4 @@
-# SideKick
-## Sidekick stands for helper
+# Aide
+## aide stands for helper
 
 ### This is currently underconstruction
