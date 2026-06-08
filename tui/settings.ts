@@ -4,9 +4,9 @@ import figlet from "figlet";
 import fs from "fs";
 import path from "path";
 
-const BANNER_FONT = "graffiti";
-const SHADOW = chalk.hex('#ff0000');
-const FACE = chalk.hex('#ffffff').bold;
+const BANNER_FONT = "chunky";
+const SHADOW = chalk.hex('#008cff');
+const FACE = chalk.hex('#6aada2').bold;
 
 function printBannerWithShadow(ascii: string) {
     const bannerLines = ascii.replace(/\s+$/, '').split('\n');

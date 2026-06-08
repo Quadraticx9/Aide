@@ -32,8 +32,8 @@
     "telegraf": "^4.16.3"
   },
   "bun-create": {
-    "preinstall": "echo 'Installing...'", 
-    "postinstall": ["echo 'Done!'"], 
+    "preinstall": "echo 'Installing...'",
+    "postinstall": ["echo 'Done!'"],
     "start": "aide launch"
   }
 }

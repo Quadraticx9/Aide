@@ -4,9 +4,9 @@ import figlet from "figlet";
 import { runCliMode } from "../modes/cli";
 // import { runTelegramMode } from "../modes/telegram";
 
-const BANNER_FONT = "graffiti";
-const SHADOW = chalk.hex('#ff0000');
-const FACE = chalk.hex('#ffffff').bold;
+const BANNER_FONT = "chunky";
+const SHADOW = chalk.hex('#008cff');
+const FACE = chalk.hex('#6aada2').bold;
 
 function printBannerWithShadow(ascii: string) {
 
