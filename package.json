@@ -4,7 +4,6 @@
   "module": "index.ts",
   "main": "index.ts",
   "type": "module",
-  "private": true,
   "bin": {
     "aide": "index.ts"
   },
