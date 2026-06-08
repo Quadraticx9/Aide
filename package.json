@@ -1,12 +1,12 @@
 {
   "name": "aide",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "module": "index.ts",
   "main": "index.ts",
   "type": "module",
   "private": true,
   "bin": {
-    "aide": "./index.ts"
+    "aide": "index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest",
@@ -33,7 +33,9 @@
   },
   "bun-create": {
     "preinstall": "echo 'Installing...'",
-    "postinstall": ["echo 'Done!'"],
+    "postinstall": [
+      "echo 'Done!'"
+    ],
     "start": "aide launch"
   }
 }
